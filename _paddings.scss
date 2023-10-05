@@ -1,5 +1,17 @@
 $spacer : 1;
 
+.p-0 { padding : 0; }
+.pt-0 { padding-top : 0; }
+.pb-0 { padding-bottom : 0; }
+.pr-0 { padding-right: 0; }
+.pl-0 { padding-left: 0; }
+
+.p-auto { padding : auto; }
+.pt-auto { padding-top : auto; }
+.pb-auto { padding-bottom : auto; }
+.pr-auto { padding-right: auto; }
+.pl-auto { padding-left: auto; }
+
 .p-1 { padding : calc(0.5rem * $spacer); }
 .pt-1 { padding-top : calc(0.5rem * $spacer); }
 .pb-1 { padding-bottom : calc(0.5rem * $spacer); }
