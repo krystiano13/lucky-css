@@ -1,0 +1,27 @@
+/* background size */
+
+.bg-size-cover { background-size: cover; }
+.bg-size-auto { background-size: auto; }
+.bg-size-contain { background-size: contain; }
+.bg-size-revert { background-size: revert; }
+
+/* background repeat */
+
+.bg-rep-none { background-repeat: no-repeat; }
+.bg-rep { background-repeat: repeat; }
+.bg-rep-x { background-repeat: repeat-x; }
+.bg-rep-y { background-repeat: repeat-y; }
+.bg-rep-round { background-repeat: round; }
+.bg-rep-space { background-repeat: space; }
+
+/* background position */
+
+.bg-pos-b { background-position: bottom; }
+.bg-pos-l { background-position: left; }
+.bg-pos-center { background-position: center; }
+.bg-pos-r { background-position: right; }
+.bg-pos-t { background-position: top; }
+.bg-pos-rb { background-position: right bottom; }
+.bg-pos-rt { background-position: right top; }
+.bg-pos-lb { background-position: left bottom; }
+.bg-pos-lt { background-position: left top; }
