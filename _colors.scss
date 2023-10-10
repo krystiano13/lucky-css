@@ -1,20 +1,24 @@
 @import 'var_spacing';
 @import 'var_colors';
 
-.bg-primary {
+.bg-hover {
+  transition : background-color $transitionTime;
+}
+
+.bg-primary, .bg-primary-hover:hover {
   background-color: $primary;
 }
-.bg-secondary {
+.bg-secondary, .bg-secondary-hover:hover {
   background-color: $secondary;
 }
-.bg-accent {
+.bg-accent, .bg-accent-hover:hover {
   background-color: $accent;
 }
-.bg {
+.bg, .bg-def-hover:hover {
   background-color: $background;
 }
 
-.color, .color-hover:hover {
+.color, .color-def-hover:hover {
   color: $text;
 }
 
