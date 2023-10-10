@@ -25,6 +25,8 @@
 @import './_box_sizing';
 @import './_word_wrap';
 @import './_vertical_align';
+@import './_isolation';
+@import './_visibility';
 
 *,*::before,*::after {
   margin : 0;
