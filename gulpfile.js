@@ -10,7 +10,7 @@ const styles = () => {
 }
 
 const watcher = () => {
-    return watch(['./**/*.scss'], styles);
+    return watch(['./*.scss'], {ignoreInitial: false} ,styles);
 }
 
 exports.default = series(watcher, styles);
