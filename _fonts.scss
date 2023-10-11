@@ -24,3 +24,13 @@
 
 .font-head { font-family: 'Montserrat'; }
 .font-other { font-family: 'Inter'; }
+
+.font-smooth-aa {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font-smooth-saa {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
